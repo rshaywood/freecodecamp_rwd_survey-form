@@ -1,0 +1,76 @@
+body {
+    font-family: 'century gothic', 'sans serif';
+    background-image: url('beach60.jpg');
+    background-attachment: fixed;
+    color: rgb(238, 235, 243);
+}
+
+h1, #description {
+    text-align: center;
+}
+
+#description {
+    font-style: italic;
+}
+
+form {
+    max-width: 700px;
+    min-width: 300px;
+    margin: 0 auto;
+    background-color: rgba(4, 29, 111, .8);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+fieldset {
+    border: none;
+}
+
+input {
+    display:block;
+    /* margin: 5px 0; */
+}
+
+.inline {
+    display: inline;
+    vertical-align: middle;
+}
+
+label {
+    display: block;
+}
+
+input[type=text], input[type=email], input[type=number], select, textarea {
+    width: 95%;
+    display: block;
+}
+
+input[type=text], input[type=email], input[type=number] {
+    margin:5px 0 15px 0;
+}
+
+input, textarea, select {
+    min-height: 2em;
+    border-radius: 3px;
+    border: none;
+}
+
+input[type=radio], input[type=checkbox] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: rgb(95, 191, 95);
+    color: rgb(238, 235, 243);
+    width: 95%;
+    min-height: 2em;
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
